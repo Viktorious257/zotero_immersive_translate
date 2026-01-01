@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Zotero Immersive Translate",
+  "version": "0.1.0",
+  "description": "Immersive-style translation helper for Zotero.",
+  "applications": {
+    "zotero": {
+      "id": "immersive-translate@zotero.local",
+      "strict_min_version": "7.0"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["<all_urls>", "storage"]
+}
